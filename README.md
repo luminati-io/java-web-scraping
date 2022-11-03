@@ -1,6 +1,7 @@
 # Java-web-scraping
 <h2>Quick guide with code example how to use Java for web scraping</h2>
 
+![java web scraping header](https://github.com/luminati-io/java-web-scraping/blob/main/Web%20scraping%20with%20Java%20-%20Ultimate%20guide.png "java scraping guide banner")
 
 While some people prefer using Python, another popular option is **utilizing Java for web scraping**.  Here is a step-by-step guide of how to easily accomplish this.
 
@@ -22,6 +23,10 @@ You can check installations with these commands:
 <h3>Step One: Inspect your target page</h3>
 Head to the target site that you would like to collect data from, right click anywhere and hit ‘inspect element’ in order to access the ‘Developer Console’, which will grant you access to the web page's HTML.
 <h3>Step Two: Begin scraping the HTML</h3>
+Open IntelliJ IDEA and create a Maven project:
+
+![intellij IDEA Maven project](https://github.com/luminati-io/java-web-scraping/blob/main/Java2%20intellij.png "intellij maven project")
+
 Maven projects have a pom.xml file. Navigate to the pom.xml file, and first set up the JDK version for your project:
 
 ```
@@ -42,7 +47,9 @@ Maven projects have a pom.xml file. Navigate to the pom.xml file, and first set 
 		</dependency>
 	</dependencies>
   ```
-  Now circumstances are right to begin writing the first Java class. Start by creating a new Java source file like so:
+  Now everything is set-up to begin writing the first Java class. Start by creating a new Java source file like so:
+  
+  ![open new java source](https://github.com/luminati-io/java-web-scraping/blob/main/Java3%20intellij.png "new java class")
   
   We need to create a main method for our application to start. Create the main method like this:
   
@@ -96,6 +103,8 @@ WebClient webClient = createWebClient();
 		}	
   ```
 To get the **XPath** of the desired element, go ahead and use the Developer Console. On the Developer Console, right-click the selected section and click “Copy XPath”. This command will copy the selected section as an XPath expression:
+
+![xpath of element](https://github.com/luminati-io/java-web-scraping/blob/main/Java4.png "get xpath")
 
 The web pages contain links, text, graphics, and tables. If you select an XPath of a table, you can export it to CSV and make further calculations, and analysis with programs such as Microsoft Excel. In the next step, we will examine exporting a table as a CSV file.
 

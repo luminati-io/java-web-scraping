@@ -126,4 +126,4 @@ public static void writeCsvFile(String link, String price) throws IOException {
 
 ----
 
-Although Java can help professionals in various fields extract the data they need, the process of web scraping can be quite time-consuming. To fully automate your data collection operations you can utilize a tool like the Bright [Data Collector](https://brightdata.grsm.io/vitariz-dca). All you need to do is choose their target site, and output dataset, and then select your desired schedule, file format, and delivery method.
+Although Java can help professionals in various fields extract the data they need, the process of web scraping can be quite time-consuming. To fully automate your data collection operations you can utilize a tool like the Bright Data's [Web Scraping API](https://brightdata.com/products/web-scraper). All you need to do is choose the target site, and output dataset, and then select your desired schedule, file format, and delivery method.

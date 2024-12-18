@@ -20,6 +20,12 @@ You can check installations with these commands:
 * ```java -version```
 * ```mvn -v```
 
+## Alternative Solution
+
+[Bright Data's Web Scraping API](https://brightdata.com/products/web-scraper) offers a fully automated solution for data collection. Skip the complexities of setting up and maintaining your scrapers—simply define your target site, desired dataset, and output format. Whether you need structured data in real-time or scheduled deliveries, Bright Data's robust tools ensure accuracy, scalability, and ease of use. Perfect for professionals who value efficiency and reliability in their data operations.
+
+Now, let's continue with our Java scraper.
+
 <h3>Step One: Inspect your target page</h3>
 Head to the target site that you would like to collect data from, right click anywhere and hit ‘inspect element’ in order to access the ‘Developer Console’, which will grant you access to the web page's HTML.
 <h3>Step Two: Begin scraping the HTML</h3>
@@ -125,5 +131,7 @@ public static void writeCsvFile(String link, String price) throws IOException {
   ```
 
 ----
+
+## Conclusion
 
 Although Java can help professionals in various fields extract the data they need, the process of web scraping can be quite time-consuming. To fully automate your data collection operations you can utilize a tool like the Bright Data's [Web Scraping API](https://brightdata.com/products/web-scraper). All you need to do is choose the target site, and output dataset, and then select your desired schedule, file format, and delivery method.
